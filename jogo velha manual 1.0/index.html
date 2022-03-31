@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joga da velha</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="jogador">
+        <p id="vez">Jogador da vez: <h1 id="jogador">X</h1></p>
+        
+    </div>
+    <div class="btns">
+        <button onclick="mudarJogador()">mudar <br> jogador</button>
+        <button id="back" >Reiniciar</button>
+    </div>
+
+    <div class="tabela">
+        <div id="a1" class="espaco"  onclick="espaco1()"><p id="p1"></p></div>
+        <div id="a2" class="espaco" onclick="espaco2()"><p id="p2"></p></div>
+        <div id="a3" class="espaco" onclick="espaco3()"><p id="p3"></p></div>
+
+        <div id="a4" class="espaco" onclick="espaco4()"><p id="p4"></p></div>
+        <div id="a5" class="espaco" onclick="espaco5()"><p id="p5"></p></div>
+        <div id="a6" class="espaco" onclick="espaco6()"><p id="p6"></p></div>
+
+        <div id="a7" class="espaco" onclick="espaco7()"><p id="p7"></p></div>
+        <div id="a8" class="espaco" onclick="espaco8()"><p id="p8"></p></div>
+        <div id="a9" class="espaco" onclick="espaco9()"><p id="p9"></p></div>
+    </div>
+    <br>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
